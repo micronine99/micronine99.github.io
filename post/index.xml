@@ -6,10 +6,40 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Dec 2019 13:50:47 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Dec 2019 14:46:01 +0800</lastBuildDate>
     
 	<atom:link href="https://micronine99.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>测试</title>
+      <link>https://micronine99.github.io/post/blog2/</link>
+      <pubDate>Sun, 15 Dec 2019 14:46:01 +0800</pubDate>
+      
+      <guid>https://micronine99.github.io/post/blog2/</guid>
+      <description>1、安装hugo
+2、检查安装 hugo version
+3、创建blog hugo new site myblog
+![img](D:\New app\有道云笔记\pty63506350@163.com\ca79736d5de743caac6b65c0c468c691\clipboard.png)
+4、下载主题
+在themes文件夹下： git clone https://github.com/syui/hugo-theme-air
+ls 打开之后可以看到
+5、在本地启动blog
+hugo server -t hugo-theme-air &amp;ndash;buildDrafts
+6、新建文章
+hugo new post/blog.md 【需要在主题的content里new】
+7、第五步，发布
+8、部署到github
+![img](D:\New app\有道云笔记\pty63506350@163.com\f06c942021ee4304a85cbcd27f4e39fa\clipboard.png)
+根目录下:hugo &amp;ndash;theme=hugo-theme-air &amp;ndash;baseUrl=&amp;quot;https://micronine99.github.io/&amp;rdquo; &amp;ndash;buildDrafts
+![img](D:\New app\有道云笔记\pty63506350@163.com\23afcd279838416fb2937e2f80865fd5\clipboard.png)
+将public文件夹传到远端：
+在public里面：
+git init -&amp;gt; git add * -&amp;gt; git commit -m &amp;ldquo;xxxx&amp;rdquo;
+连接远端：git remote add origin1 https://github.com/micronine99/micronine99.github.io.git
+推出：git push -u origin1 master
+至此就可以用micronine99.github.io访问</description>
+    </item>
     
     <item>
       <title>博客之路</title>
@@ -20,26 +50,6 @@
       <description>#这是我的第一篇博客
 2019/12/15
 谨以此纪念！</description>
-    </item>
-    
-    <item>
-      <title>sample</title>
-      <link>https://micronine99.github.io/post/test/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://micronine99.github.io/post/test/</guid>
-      <description>Hugo is the world&#39;s fastest static website engine. It&#39;s written in Go (aka Golang) and developed by bep, spf13 and friends.
- Below you will find some of the most common and helpful pages from our documentation.
- https://gohugo.io/documentation/</description>
-    </item>
-    
-    <item>
-      <title>test post</title>
-      <link>https://micronine99.github.io/post/test/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://micronine99.github.io/post/test/</guid>
-      <description>echo &amp;#34;hello world !!&amp;#34;</description>
     </item>
     
     <item>
